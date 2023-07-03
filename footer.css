@@ -1,0 +1,119 @@
+footer {
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(238, 241, 241);
+    /* background-color:  #1f1f1ff2; */
+}
+
+.footer-content {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+.footer-bottom{
+    color:rgb(169 123 67 / 80%) ;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.fotlogo {
+    color: #222222c5;
+    width: 20%;
+    display: flex;
+    /* justify-content: center; */
+    /* margin-top: 20px; */
+    flex-direction: column;
+}
+.logo ul{
+    margin-top: 18px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-contact {
+    padding-top: 20px;
+    height: 90%;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 25px;
+    /* font-size: 30px; */
+    flex-direction: column;
+    color: #222222c5;
+}
+
+.gp {
+    margin-top: 15px;
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    
+    align-items: flex-start;
+}
+
+.gp i {
+    font-size: 20px;
+}
+.gp p{
+    text-align: left;
+}
+.gp a{
+    color: #222;
+}
+.footer-contact .gp i{
+    font-size: 25px;
+}
+.footer-about {
+    color: #222222c5;
+    width: 30%;
+    padding-top: 20px;
+}
+.footer-about h4{
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    margin-top: 5%;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+}
+footer h4{
+    color: rgb(169 123 67 / 80%);
+    font-size: 26px;
+    position: relative;
+}
+footer h4::before{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 50%;
+    left: 0;
+    bottom: -3px;
+    color: #777;
+    background-color: #222222c5;
+}
+.footer-links i{
+    color: #777;
+}
+.footer-links a i{
+    /* border: 2px solid rgba(136, 136, 136, 0.8); */
+    padding: 7px 11px;
+    /* background-color: #373737; */
+    color: #222222c5;
+}
+.gp p a{
+    color: #222222c5;
+    text-decoration: none;
+}

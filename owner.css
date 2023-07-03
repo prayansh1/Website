@@ -1,0 +1,55 @@
+.owner{
+    height: 60vh;
+    width: 100%;
+    background-color: #222222f2;
+}
+.owner-content{
+    height: 100%;
+    width: 90%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.owner-img{
+    height: 360px;
+    width: 340px;
+    padding: 9px;
+    width: 20%;
+    /* box-shadow: 4px 4px 4px #4c4848; */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.229),rgba(0, 0, 0, 0.295)),url(IMG-20230603-WA0034.jpg);
+    height: 90%;
+    background-size: 100% 100%; */
+    border: 2px solid  rgb(169 123 67 / 80%);
+    border-right: none;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.owner-img img{
+    padding-top: 5px;
+    height: 350px;
+    width: 280px;
+}
+.owner-text{
+    width: 50%;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+.owner-text h3,h1{
+    font-weight: lighter;
+}
+.owner-text h1{
+    font-size: 3rem;
+   color:  rgb(169 123 67 / 80%);
+   /* color: transparent; */
+   /* -webkit-text-stroke: 1px rgb(169 123 67 / 80%); */
+}
+.about-owner{
+    margin-top: 20px;
+}
+.about-owner h4{
+    margin-top: 4px;
+    font-weight: 520;
+}
