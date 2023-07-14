@@ -64,7 +64,7 @@ menui.onclick = ()=>{
 }
 window.onscroll =()=>{
     
-    menui.classList.remove('bx-x');
+    menui.classList.remove('fa-x');
     menu.classList.remove('open');
 
 }
