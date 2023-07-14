@@ -59,7 +59,7 @@ let menu=document.querySelector('.menu');
 menui.onclick = ()=>{
     console.log('prayansh')
     menu.classList.toggle('open');
-    menui.classList.toggle('bx-x');
+    menui.classList.toggle('fa-x');
    
 }
 window.onscroll =()=>{
